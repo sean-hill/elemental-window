@@ -1,6 +1,6 @@
 (function ( $, w ) {
 
-	$.fn.toWindowEdges = function() {
+	$.fn.windowOffsets = function() {
 
 		var elem = $(this);
 		var elemHeight = elem.outerHeight();

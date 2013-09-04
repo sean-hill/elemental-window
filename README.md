@@ -15,7 +15,7 @@ It basically expands on jQuery's .offset() function by adding on the properties 
 
         <script type='text/javascript'>
             $(document).ready(function() {
-                var edges $('#element').toWindowEdges();
+                var edges $('#element').windowOffsets();
                 var top = edges.top;
                 var right = edges.right;
                 var bottom = edges.bottom;
