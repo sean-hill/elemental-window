@@ -5,7 +5,6 @@
 		var elem = $(this);
 		var elemHeight = elem.outerHeight();
 		var elemWidth = elem.outerWidth();
-		var edge = edge || "top";
 
 		var windowHeight = $(w).height();
 		var windowWidth = $(w).width();
